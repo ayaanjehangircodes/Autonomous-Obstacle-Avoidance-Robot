@@ -1,0 +1,75 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/samples/robotbenchmark/maze_runner/protos/MazeBlock.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5807210029678914 -0.021192045488805433 0.8138267714446156 3.2009777119436755
+  position 1.1914725692960229 0.017470478788110366 2.5600041658632176
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+E-puck {
+  translation 0.4 0 0.05
+  rotation 0.00211781778251712 -0.002145585565843282 -0.9999954556448843 -1.5730065271476121
+  controller "goal_navigation_bot"
+}
+CardboardBox {
+  translation 0 0.41 0.04
+  rotation 0 1 0 0
+  name "Top_box"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 0 0 0.04
+  rotation 0 1 0 0
+  name "Middle_box"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 0 -0.41 0.04
+  rotation 0 1 0 0
+  name "Bottom_box"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.4 0 0.04
+  rotation 0 1 0 0
+  name "Goal"
+  size 0.1 0.1 0.1
+}
+MazeBlock {
+  translation 0.25 0.2 0
+  rotation 0.5773502691896258 0.5773502691896258 0.5773502691896258 0
+  name "maze block 1"
+  length 0.2
+}
+MazeBlock {
+  translation -0.25 0.2 0
+  rotation 0.5773502691896258 0.5773502691896258 0.5773502691896258 0
+  name "maze block 4"
+  length 0.2
+}
+MazeBlock {
+  translation 0.25 -0.2 0
+  rotation 0.5773502691896258 0.5773502691896258 0.5773502691896258 0
+  name "maze block 2"
+  length 0.2
+}
+MazeBlock {
+  translation -0.25 -0.2 0
+  rotation 0.5773502691896258 0.5773502691896258 0.5773502691896258 0
+  name "maze block 3"
+  length 0.2
+}
